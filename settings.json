@@ -1,0 +1,146 @@
+{
+    "redhat.telemetry.enabled": true,
+    "cmake.configureOnOpen": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "gitlens.views.branches.showBranchComparison": false,
+    "debug.disassemblyView.showSourceCode": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "diffEditor.maxComputationTime": 0,
+    "terminal.integrated.inheritEnv": false,
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "vscode-icons",
+    "markdown-preview-enhanced.enablePreviewZenMode": true,
+    "git.openRepositoryInParentFolders": "never",
+    "cmake.showOptionsMovedNotification": false,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.enablePreview": false,
+    "editor.scrollBeyondLastLine": false,
+    "editor.smoothScrolling": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.activityBar.location": "top",
+    "editor.lineNumbers": "off",
+    "editor.renderWhitespace": "none",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.indentation": false,
+    "zenMode.centerLayout": false,
+    "explorer.openEditors.visible": 1,
+    "explorer.decorations.colors": false, 
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderLineHighlight": "none",
+    "editor.wordWrap": "off",
+    "editor.rulers": [],
+    "editor.padding.top": 0,
+    "editor.padding.bottom": 0,
+    "editor.folding": true,
+    "editor.foldingStrategy": "auto",
+    "editor.foldingImportsByDefault": false,
+    "editor.showFoldingControls": "always",
+    "workbench.layoutControl.type": "menu",
+    "window.title": " ",
+    "gitlens.mode.active": "zen",
+    "git.decorations.enabled": true,
+    "git.ignoreLimitWarning": true,
+    "explorer.excludeGitIgnore": false,
+    "zenMode.hideStatusBar": true, // Hide status bar in Zen Mode
+    "zenMode.fullScreen": false, // Enable full screen in Zen Mode
+    "editor.fontSize": 11.5, // Set a comfortable font size
+    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace", // Set a custom font
+    "editor.fontLigatures": true, // Enable font ligatures
+    "editor.autoClosingBrackets": "always", // Auto-close brackets in JSON
+    "editor.autoClosingQuotes": "always", // Auto-close quotes in JSON
+    "window.density.editorTabHeight": "compact",
+    "DockerRun.DisableAutoGenerateConfig": true,
+    "workbench.colorCustomizations": {
+        "[Vira*]": {}
+    },
+    "window.restoreWindows": "none",
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/tmp": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true
+    },
+    "gitlens.advanced.messages": {
+        "suppressGitVersionWarning": true
+    },
+    "workbench.startupEditor": "none",
+    "git.ignoreLegacyWarning": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.alternateGptPrompt.enabled": true,
+    "chat.todoListTool.enabled": true,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "editor.largeFileOptimizations": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.parameterHints.enabled": true,
+    "editor.suggest.showWords": true,
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showKeywords": true,
+    "editor.suggest.showModules": true,
+    "editor.suggest.showClasses": true,
+    "editor.suggest.showInterfaces": true,
+    "editor.suggest.showEnums": true,
+    "editor.suggest.showStructs": true,
+    "editor.suggest.showTypeParameters": true, 
+    "markdownlint.config": {
+        "default": false
+    },
+    "errorLens.enabled": false,
+    // "errorLens.warningBackground": "#00000000",
+    // "errorLens.warningForeground": "#00000000",
+    // "errorLens.infoBackground": "#00000000",
+    // "errorLens.infoForeground": "#00000000",
+    "errorLens.lintFilePaths": {        
+        "eslint": [
+            "**/*.eslintrc.{js,cjs,yaml,yml,json}",
+            "**/*package.json"
+        ],
+        "Stylelint": [
+            "**/*.stylelintrc",
+            "**/*.stylelintrc.{cjs,js,json,yaml,yml}",
+            "**/*stylelint.config.{cjs,js}",
+            "**/*package.json"
+        ]
+    },
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "hint",
+        "warning"
+    ],
+    "errorLens.messageEnabled": false,
+    "makefile.configureOnOpen": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.commandCenter": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "python.createEnvironment.trigger": "off",
+    
+}
